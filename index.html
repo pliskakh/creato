@@ -16,7 +16,7 @@
 
 	<div class="ba-wrap">
 		<!-- BEGIN ba-intro  -->
-		<section class="ba-intro" id="welcome">
+		<div class="ba-intro" id="welcome">
 		    <!-- BEGIN ba-intro-overlay  -->
 		    <div class="ba-intro-overlay">
 		    	<div class="ba-container">
@@ -92,7 +92,7 @@
 		        
 		    </div>
 		    <!-- END ba-intro-overlay -->
-		</section>
+		</div>
 		<!-- END ba-intro -->
 
 		<!-- BEGIN ba-main  -->
@@ -109,7 +109,7 @@
 					        <div class="ba-grid">
 					            <!-- BEGIN ba-width-1-2  -->
 					            <div class="ba-width-1-2">
-					            	<article class="ba-about__text">
+					            	<div class="ba-about__text">
 					            		<p>
 					            			Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et et iusto odio dignissim qui blandit praesent luptatum zzril delenit duis dolore te feugait nulla facilisi.	
 					            		</p>
@@ -118,7 +118,7 @@
 												<use xlink:href="#arrow-right" />
 											</svg>
 										</a>
-					            	</article>	    
+					            	</div>	    
 					            </div>
 					            <!-- END ba-width-1-2 -->
 					            <!-- BEGIN ba-width-1-2  -->
@@ -279,15 +279,14 @@
 					<!-- END ba-speech  -->
 
 					<!-- START ba-banners  -->
-					<section class="ba-banners">
-
+					<div class="ba-banners" id="banners">
 						<div class="ba-banners__item"><img src="img/hipster.png" alt="hipster"></div>
 						<div class="ba-banners__item"><img src="img/miller.png" alt="miller"></div>
 						<div class="ba-banners__item"><img src="img/hipster.png" alt="hipster"></div>
 						<div class="ba-banners__item"><img src="img/miller.png" alt="miller"></div>
 						<div class="ba-banners__item"><img src="img/hipster.png" alt="hipster"></div>
 						<div class="ba-banners__item"><img src="img/miller.png" alt="miller"></div>
-					</section>
+					</div>
 					<!-- END ba-banners  -->
 					
 
@@ -346,45 +345,57 @@
 		<footer class="ba-footer cf">
 			<div class="ba-container">
 				<div class="ba-copyright">
-					<img src="img/logo-footer.png">
+					<img src="img/logo-footer.png" alt="Creato">
 					<span>Copyright 2016, All Rights Reserved</span>
 				</div>
 				<ul class="ba-social">
-						<li><a href="#">
+						<li>
+							<a href="#">
 								<svg width="16" height="16">
-									<use xlink:href="#icon-facebook">
+									<use xlink:href="#icon-facebook" />
 								</svg>
 							</a></li>
-						<li><a href="#">
+						<li>
+							<a href="#">
 								<svg width="16" height="16">
-									<use xlink:href="#icon-twitter">
+									<use xlink:href="#icon-twitter" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="active">
+								<svg width="16" height="16">
+									<use xlink:href="#icon-behance" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg width="16" height="16">
+									<use xlink:href="#icon-flickr3" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg width="16" height="16">
+									<use xlink:href="#icon-instagram" />
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<svg width="16" height="16">
+									<use xlink:href="#icon-dribbble" />
 								</svg>
 							</a></li>
-						<li><a href="#" class="active">
+						<li>
+							<a href="#">
 								<svg width="16" height="16">
-									<use xlink:href="#icon-behance">
+									<use xlink:href="#icon-pinterest" />
 								</svg>
-							</a></li>
-						<li><a href="#">
-								<svg width="16" height="16">
-									<use xlink:href="#icon-flickr3">
-								</svg>
-							</a></li>
-						<li><a href="#">
-								<svg width="16" height="16">
-									<use xlink:href="#icon-instagram">
-								</svg>
-							</a></li>
-						<li><a href="#">
-								<svg width="16" height="16">
-									<use xlink:href="#icon-dribbble">
-								</svg>
-							</a></li>
-						<li><a href="#">
-								<svg width="16" height="16">
-									<use xlink:href="#icon-pinterest">
-								</svg>
-							</a></li>
+							</a>
+						</li>
 					</ul>	
 			</div>
 			<!-- /.ba-container -->			
